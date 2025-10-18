@@ -19,7 +19,7 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - Consultar dados de uma equipa (nome, cidade, estádio, treinador).
 - Consultar lista de jogadores de uma equipa.
 - Ver resultados de jogos e estatísticas básicas.
-- Consultar produtos de merchandising de cada equipa.
+- Consultar produtos da merch de cada equipa.
 
 ### Requisitos não funcionais
 - A base de dados deve ser relacional.
