@@ -10,18 +10,17 @@ O projeto seguinte desenha uma base de dados relacional para a Liga Portugal, co
 
 
 ## ​Análise de Requisitos / Requirements
-1) Âmbito
+### 1) Âmbito
 ...
-2) Requisitos Funcionais
+### 2) Requisitos Funcionais
 ...
-3) Requisitos Não Funcionais
+### 3) Requisitos Não Funcionais
 ...
-4) Regras de Negócio
+### 4) Regras de Negócio
 ...
-5) Casos de Uso Principais
+### 5) Casos de Uso Principais
 ...
 
-Modelo de Dados
 
 
 ## DER
