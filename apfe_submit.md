@@ -2,13 +2,13 @@
 
 **Grupo**: P3G12
 - Francisco Santos, MEC: 126255
-- João Inventado, MEC: 2000
+- Keegan Azevedo, MEC: 110160
 
 ## Introdução / Introduction
 O nosso projeto consiste no desenvolvimento de uma base de dados que permitirá acompanhar as temporadas da Liga Portugal. A aplicação disponibilizará informações sobre equipas, jogadores, resultados e classificações, bem como a merch das maiores equipas. 
 O principal objetivo é centralizar dados da Liga Portugal, atuais e históricos, numa única plataforma organizada e acessível.
 
-## ​Análise de Requi\sitos / Requirements
+## ​Análise de Requisitos / Requirements
 
 ### Objetivo geral
 
@@ -27,8 +27,8 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - A aplicação deve permitir inserções e consultas rápidas.
 
 ### Entidades identificadas
-- Equipa
-- Plantel
+- Clube
+- Plantel (11 inicial)
 - Jogador
 - Jogo
 - Temporada
@@ -36,20 +36,20 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - Loja Online
 - Estádio
 - Treinador
-- Estatísticas de equipa
+- Estatísticas do clube
 - Estatísticas de jogador
 - Pessoa
-
+- Evento?
 
 
 ### Principais relações
-- Uma equipa participa em várias temporadas (via classificação)
-- Uma equipa tem vários jogadores e um treinador associado.
-- Um jogo envolve duas equipas e pertence a uma temporada.
-- Os três grandes têm merchandising associado (pode ser implementado nas outras equipas também).
-- Cada equipa está localizada num estádio onde são realizados jogos em casa e fora de casa.
-- Os jogadores e equipas têm estatísticas associadas
-- Cada plantel pertence a uma equipa e temporada e é composta por vários jogadores
+- Um clube participa em várias temporadas (via classificação)
+- Um clube tem vários jogadores e um treinador associado.
+- Um jogo envolve doic clubes e pertence a uma temporada.
+- Os três grandes têm merchandising associado (pode ser implementado nas outros clubes também).
+- Cada clube está localizada num estádio onde são realizados jogos em casa e fora de casa.
+- Os jogadores e clubes têm estatísticas associadas
+- Cada plantel pertence a um clube e temporada e é composta por vários jogadores
 - Treinador e jogador são tipos de pessoa
 
 
