@@ -33,7 +33,7 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - Jogo
 - Temporada
 - Classificação
-- Loja
+- Loja Online
 - Estádio
 - Treinador
 - Estatísticas de equipa
