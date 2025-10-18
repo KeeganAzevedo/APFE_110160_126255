@@ -19,11 +19,10 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - Consultar dados de uma equipa (nome, cidade, estádio, treinador).
 - Consultar lista de jogadores de uma equipa.
 - Ver resultados de jogos e estatísticas básicas.
-- Consultar produtos de merchandising de cada equipa.
+- Consultar produtos da merch de cada equipa.
 
 ### Requisitos não funcionais
 - A base de dados deve ser relacional.
-- A informação deve estar normalizada até à 3ª forma normal.
 - A aplicação deve permitir inserções e consultas rápidas.
 
 ### Entidades identificadas
@@ -39,17 +38,20 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - Estatísticas do clube
 - Estatísticas de jogador
 - Pessoa
+- Produto
 
 
 ### Principais relações
-- Um clube participa em várias temporadas (via classificação)
+- Um clube participa em várias temporadas (via classificação).
 - Um clube tem vários jogadores e um treinador associado.
-- Um jogo envolve doic clubes e pertence a uma temporada.
-- Os três grandes têm merchandising associado (pode ser implementado nas outros clubes também).
-- Cada clube está localizada num estádio onde são realizados jogos em casa e fora de casa.
-- Os jogadores e clubes têm estatísticas associadas
-- Cada plantel pertence a um clube e temporada e é composta por vários jogadores
-- Treinador e jogador são tipos de pessoa
+- Uma temporada tem muitos jogos; cada jogo pertence a uma temporada.
+- Cada jogo envolve dois clubes (casa e fora).
+- Um clube tem uma classificação por temporada.
+- Em cada jogo, cada clube define um plantel (11 inicial/suplentes) e cada plantel inclui vários jogadores.
+- Um clube está associado a um estádio.
+- Um clube tem uma loja online e a loja vende vários produtos.
+
+
 
 
 
