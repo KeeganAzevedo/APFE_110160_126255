@@ -23,7 +23,6 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 
 ### Requisitos não funcionais
 - A base de dados deve ser relacional.
-- A informação deve estar normalizada até à 3ª forma normal.
 - A aplicação deve permitir inserções e consultas rápidas.
 
 ### Entidades identificadas
@@ -39,7 +38,7 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - Estatísticas do clube
 - Estatísticas de jogador
 - Pessoa
-- Evento?
+- Produto
 
 
 ### Principais relações
