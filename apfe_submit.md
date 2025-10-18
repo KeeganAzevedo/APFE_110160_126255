@@ -28,7 +28,7 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 
 ### Entidades identificadas
 - Clube
-- Plantel
+- Plantel (11 inicial)
 - Jogador
 - Jogo
 - Temporada
