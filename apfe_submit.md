@@ -5,21 +5,53 @@
 - João Inventado, MEC: 2000
 
 ## Introdução / Introduction
- 
-O projeto seguinte desenha uma base de dados relacional para a Liga Portugal, com campeonatos, clubes, plantéis, jogos, eventos de jogos (golos, cartões, substituições), classificações, terrenos, árbitros e transferências. O objetivo é auxiliar nas operações de consulta e análise (por época e competição), garantir a integridade referencial e permitir a evolução futura (novas competições, play-offs, VAR, métricas avançadas). Princípios de normalização (até 3FN), chaves naturais e substitutas quando necessário, e regras de negócio aprovadas com regulamentações típicas do futebol profissional em Portugal foram utilizadas.
+O nosso projeto consiste no desenvolvimento de uma base de dados que permitirá acompanhar as temporadas da Liga Portugal. A aplicação disponibilizará informações sobre equipas, jogadores, resultados e classificações, bem como a merch das maiores equipas. 
+O principal objetivo é centralizar dados da Liga Portugal, atuais e históricos, numa única plataforma organizada e acessível.
+
+## ​Análise de Requi\sitos / Requirements
+
+### Objetivo geral
+
+Criar uma base de dados para armazenar e consultar dados da Liga Portugal, incluindo temporadas, equipas, jogadores e jogos.
+
+### Requesitos funcionais
+- Permitir visualizar a classificação geral de uma temporada.
+- Consultar dados de uma equipa (nome, cidade, estádio, treinador).
+- Consultar lista de jogadores de uma equipa.
+- Ver resultados de jogos e estatísticas básicas.
+- Consultar produtos de merchandising de cada equipa.
+
+### Requisitos não funcionais
+- A base de dados deve ser relacional.
+- A informação deve estar normalizada até à 3ª forma normal.
+- A aplicação deve permitir inserções e consultas rápidas.
+
+### Entidades identificadas
+- Equipa
+- Plantel (11 inicial)
+- Jogador
+- Jogo
+- Temporada
+- Classificação
+- Loja
+- Estádio
+- Treinador
+- Estatísticas de equipa
+- Estatísticas de jogador
+- Pessoa
 
 
-## ​Análise de Requisitos / Requirements
-### 1) Âmbito
-...
-### 2) Requisitos Funcionais
-...
-### 3) Requisitos Não Funcionais
-...
-### 4) Regras de Negócio
-...
-### 5) Casos de Uso Principais
-...
+
+### Principais relações
+- Uma equipa participa em várias temporadas (via classificação)
+- Uma equipa tem vários jogadores e um treinador associado.
+- Um jogo envolve duas equipas e pertence a uma temporada.
+- Os três grandes têm merchandising associado (pode ser implementado nas outras equipas também).
+- Cada equipa está localizada num estádio onde são realizados jogos em casa e fora de casa.
+- Os jogadores e equipas têm estatísticas associadas
+- Cada plantel pertence a uma equipa e temporada e é composta por vários jogadores
+- Treinador e jogador são tipos de pessoa
+
 
 
 
