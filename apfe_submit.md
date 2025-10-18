@@ -39,7 +39,7 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - Estatísticas do clube
 - Estatísticas de jogador
 - Pessoa
-
+- Evento?
 
 
 ### Principais relações
