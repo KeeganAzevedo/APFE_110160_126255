@@ -52,10 +52,6 @@ Criar uma base de dados para armazenar e consultar dados da Liga Portugal, inclu
 - Um clube tem uma loja online e a loja vende vários produtos.
 
 
-
-
-
-
 ## DER
 
 
